@@ -5,42 +5,4 @@
 
 废话不多说，亮图才是关键
 
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_1.jpg)
-
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_2.jpg)
-
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_3.jpg)
-
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_4.jpg)
-
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_5.jpg)
-
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_6.jpg)
-
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_7.jpg)
-
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_8.jpg)
-
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_9.jpg)
-
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_10.jpg)
-
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_11.jpg)
-
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_12.jpg)
-
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_13.jpg)
-
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_14.jpg)
-
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_15.jpg)
-
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_16.jpg)
-
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_17.jpg)
-
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_18.jpg)
-
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_19.jpg)
-
-![Image text](https://github.com/Leezps/V_Movie/blob/master/Image/Image_20.jpg)
+<img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_1.jpg" width = "216" height = "360" alt="图片名称"/><img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_2.jpg" width = "216" height = "360" alt="图片名称"/><img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_3.jpg" width = "216" height = "360" alt="图片名称"/><img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_4.jpg" width = "216" height = "360" alt="图片名称"/><img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_5.jpg" width = "216" height = "360" alt="图片名称"/><img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_6.jpg" width = "216" height = "360" alt="图片名称"/><img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_7.jpg" width = "216" height = "360" alt="图片名称"/><img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_8.jpg" width = "216" height = "360" alt="图片名称"/><img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_9.jpg" width = "216" height = "360" alt="图片名称"/><img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_10.jpg" width = "216" height = "360" alt="图片名称"/><img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_11.jpg" width = "216" height = "360" alt="图片名称"/><img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_12.jpg" width = "216" height = "360" alt="图片名称"/><img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_13.jpg" width = "216" height = "360" alt="图片名称"/><img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_14.jpg" width = "216" height = "360" alt="图片名称"/><img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_15.jpg" width = "216" height = "360" alt="图片名称"/><img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_16.jpg" width = "216" height = "360" alt="图片名称"/><img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_17.jpg" width = "216" height = "360" alt="图片名称"/><img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_18.jpg" width = "216" height = "360" alt="图片名称"/><img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_19.jpg" width = "216" height = "360" alt="图片名称"/><img src="https://github.com/Leezps/V_Movie/blob/master/Image/Image_20.jpg" width = "216" height = "360" alt="图片名称"/>
