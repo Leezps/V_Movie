@@ -10,7 +10,7 @@
 其中涉及VideoView视频播放的知识、全屏以及WebView播放优酷上的视频等，因为有些视频只能获取到他在其他网站上网页视频播放地址，无法获取视频的存放地址，所以只能通过WebView进行播放！其中还有其他知识，我就不一一讲解了，如果想看详情，请点击
 
 最后我要感谢
-http://blog.csdn.net/lllkey/article/details/18453179
-http://blog.csdn.net/fanjiabin_11/article/details/44835053
-http://blog.csdn.net/conowen/article/details/24027401
+http://blog.csdn.net/lllkey/article/details/18453179  
+http://blog.csdn.net/fanjiabin_11/article/details/44835053  
+http://blog.csdn.net/conowen/article/details/24027401  
 这些WebView播放优酷等网页视频的博客
