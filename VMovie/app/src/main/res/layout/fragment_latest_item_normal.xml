@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:background="@color/colorBlack">
+
+    <ImageView
+        android:id="@+id/fragment_latest_item_normal_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/fragment_latest_item_normal_topic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="60dp"
+        android:visibility="invisible"
+        android:text="专题"
+        android:textSize="10dp"
+        android:textColor="@color/colorWhite"/>
+
+    <View
+        android:id="@+id/fragment_latest_item_normal_diving"
+        android:layout_width="25dp"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:visibility="invisible"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/fragment_latest_item_normal_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="30dp"
+        android:text="父情节窝心广告 爸爸是你的超人"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/fragment_latest_item_normal_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="10dp"
+        android:text="广告 / 2'21''"
+        android:textSize="10sp"
+        android:textColor="@color/colorWhite"/>
+
+</FrameLayout>

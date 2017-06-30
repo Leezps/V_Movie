@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/activity_item_content_head"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/colorBlack"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/activity_item_content_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:src="@drawable/ali_feedback_icon_back_white" />
+
+        <TextView
+            android:id="@+id/activity_item_content_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="标题"
+            android:textSize="17sp"
+            android:textColor="@color/colorWhite" />
+
+        <ImageView
+            android:id="@+id/activity_item_content_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="15dp"
+            android:src="@drawable/video_lan_share" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/activity_item_content_media"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <com.leezp.android.vmovie.utils.FullScreenVideoView
+            android:id="@+id/activity_item_content_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <FrameLayout
+            android:id="@+id/activity_item_content_video_controls"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/activity_item_content_video_play"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:background="@drawable/activity_item_content_video_play_selector"
+                android:button="@null" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/activity_item_content_video_currentTime"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="00:00"
+                    android:textColor="@color/colorWhite" />
+
+                <SeekBar
+                    android:id="@+id/activity_item_content_video_seek"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:maxHeight="1dp"
+                    android:minHeight="1dp"
+                    android:progressDrawable="@color/colorWhite"
+                    android:thumb="@drawable/player_settings_bright_thumb" />
+
+                <TextView
+                    android:id="@+id/activity_item_content_video_totalTime"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="00:00"
+                    android:textColor="@color/colorWhite" />
+
+                <CheckBox
+                    android:id="@+id/activity_item_content_video_screen"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/activity_item_content_video_screen_selector"
+                    android:button="@null" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <WebView
+        android:id="@+id/activity_item_content_webView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </WebView>
+
+    <LinearLayout
+        android:id="@+id/activity_item_content_footer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorGray_e"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/activity_item_content_like_part"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/activity_item_content_like_num"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/details_like"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="0"
+                android:textColor="@color/colorGray_9"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_item_content_share_part"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/activity_item_content_share_num"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/movie_detail_bottom_share_icon"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="0"
+                android:textColor="@color/colorGray_9"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_item_content_message_part"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/activity_item_content_message_num"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/footer_comment_icon"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="0"
+                android:textColor="@color/colorGray_9"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/activity_item_content_cache_part"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/activity_item_content_cache"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/details_cache"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="缓存"
+                android:textColor="@color/colorGray_9"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

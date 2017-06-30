@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAlphaBlack_3">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/slide_bg"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <com.leezp.android.vmovie.utils.CircleImg
+            android:id="@+id/activity_main_menu_head"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/women_head"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+        
+        <ImageView
+            android:id="@+id/activity_main_menu_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/activity_main_menu_head"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/side_set"/>
+
+        <ImageView
+            android:id="@+id/activity_main_menu_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/activity_main_menu_head"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/side_message"/>
+
+        <TextView
+            android:id="@+id/activity_main_menu_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击登录"
+            android:textSize="16sp"
+            android:textColor="@color/colorGray_9"
+            android:layout_below="@+id/activity_main_menu_head"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        
+        <TextView
+            android:id="@+id/activity_main_menu_cache"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@drawable/side_cache"
+            android:text="我的缓存"
+            android:textSize="12sp"
+            android:textColor="@color/colorGray_6"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:background="@color/colorGray_6"/>
+
+        <TextView
+            android:id="@+id/activity_main_menu_like"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@drawable/side_likes"
+            android:text="我喜欢的"
+            android:textSize="12sp"
+            android:textColor="@color/colorGray_6"/>
+
+    </LinearLayout>
+    
+    <RadioGroup
+        android:id="@+id/activity_main_menu_controller"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/activity_main_menu_home"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableLeft="@drawable/activity_main_menu_home"
+            android:paddingLeft="50dp"
+            android:drawablePadding="35dp"
+            android:text="首页"
+            android:textColor="@drawable/activity_main_menu_text_selector"
+            android:background="@drawable/activity_main_menu_bg_selector"/>
+
+        <RadioButton
+            android:id="@+id/activity_main_menu_series"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableLeft="@drawable/activity_main_menu_series"
+            android:paddingLeft="50dp"
+            android:drawablePadding="35dp"
+            android:text="系列"
+            android:textColor="@drawable/activity_main_menu_text_selector"
+            android:background="@drawable/activity_main_menu_bg_selector"/>
+
+        <RadioButton
+            android:id="@+id/activity_main_menu_behind"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableLeft="@drawable/activity_main_menu_behind"
+            android:paddingLeft="50dp"
+            android:drawablePadding="35dp"
+            android:text="幕后"
+            android:textColor="@drawable/activity_main_menu_text_selector"
+            android:background="@drawable/activity_main_menu_bg_selector"/>
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/activity_main_menu_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="45dp"
+        android:src="@drawable/side_close"/>
+
+</FrameLayout>

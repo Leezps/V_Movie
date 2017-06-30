@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_series_page_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/fragment_series_page_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorBlack"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fragment_series_page_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="小情书"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/fragment_series_page_item_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="已更新至61集 6420人已订阅"
+            android:textSize="12sp"
+            android:textColor="@color/colorGray_6"/>
+
+        <TextView
+            android:id="@+id/fragment_series_page_item_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="《小情书》是由新片场“Magic TV”触屏的爱情短片系列，以自然流露的方式，清新唯美的色调，讲述关于你、我、他的爱"
+            android:textSize="15sp"
+            android:textColor="@color/colorBlack"/>
+
+    </LinearLayout>
+
+</LinearLayout>

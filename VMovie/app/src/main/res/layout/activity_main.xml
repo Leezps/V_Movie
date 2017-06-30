@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.leezp.android.vmovie.activity.MainActivity">
+
+    <!--
+        页面分为两个区域
+            内容显示区域
+                - 几个碎片 Fragment
+            控制区域
+                - RadioGroup
+                - 基本控件
+    -->
+
+    <FrameLayout
+        android:id="@+id/activity_main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+    <include
+        android:id="@+id/activity_main_menu"
+        android:visibility="gone"
+        layout="@layout/activity_main_menu" />
+
+</FrameLayout>

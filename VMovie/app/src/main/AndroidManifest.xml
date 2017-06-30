@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.leezp.android.vmovie">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".VMovieApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.GuideActivity" />
+        <activity android:name=".activity.MainActivity" />
+        <activity
+            android:name=".activity.ItemActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name=".activity.ChannelContentActivity" />
+        <activity
+            android:name=".activity.SeriesContentActivity"
+            android:hardwareAccelerated="true" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.SettingActivity" />
+        <activity android:name=".activity.CacheActivity" />
+    </application>
+
+</manifest>

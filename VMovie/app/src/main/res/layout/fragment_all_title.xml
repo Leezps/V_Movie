@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/colorBlack">
+
+    <ImageView
+        android:id="@+id/fragment_all_title_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/home_side"/>
+
+    <TextView
+        android:id="@+id/fragment_all_title_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"
+        android:visibility="gone"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_all_title_home"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/fragment_all_title_latest"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="最新"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:id="@+id/fragment_all_title_channel"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="80dp"
+            android:gravity="center"
+            android:text="频道"
+            android:textSize="18sp"
+            android:textColor="@color/colorGray_6"/>
+
+        <View
+            android:id="@+id/fragment_all_title_slide"
+            android:layout_width="40dp"
+            android:layout_height="2dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorWhite"/>
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/fragment_all_title_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/home_search"/>
+
+</FrameLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/activity_setting_item_top"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:visibility="gone"
+        android:background="@color/colorGray_d"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/activity_setting_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="清除图片缓存"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/activity_setting_item_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="end|center_vertical"
+            android:visibility="gone"
+            android:text="0KB"
+            android:textSize="15sp"
+            android:textColor="@color/colorGray_a" />
+
+        <ImageView
+            android:id="@+id/activity_setting_item_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="end|center_vertical"
+            android:src="@drawable/arrows_r"/>
+
+        <RadioButton
+            android:id="@+id/activity_setting_item_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginRight="15dp"
+            android:visibility="gone"
+            android:button="@null"
+            android:background="@drawable/activity_setting_item_check_selector"/>
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/activity_setting_item_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:background="@color/colorGray_d"/>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="true">
+
+        <!--
+            使用层级的drawable，类似于FramLayout
+        -->
+
+        <layer-list>
+
+            <!--
+                第一个item类似于一层
+            -->
+
+            <!--
+                第二个item使用颜色填充
+            -->
+
+            <item>
+
+                <color android:color="@color/colorAlphaBlack_1"/>
+
+            </item>
+
+            <!--
+                第二个也是颜色填充，然后设置左边偏移
+            -->
+
+            <item android:left="5dp">
+
+                <color android:color="@color/colorAlphaBlack_6"/>
+
+            </item>
+
+        </layer-list>
+
+    </item>
+
+</selector>
